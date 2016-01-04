@@ -98,7 +98,7 @@ public class MainActivity extends AppCompatActivity {
 									recorder = new MediaRecorder();
 									recorder.setAudioSource(MediaRecorder.AudioSource.MIC);
 									recorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
-									test_number = test_number + 1;\ 
+									test_number = test_number + 1;\
                                     textView.setText("" + test_number);
 									filename = filedir +  "/test_" + test_number + ".3gp";
 									recorder.setOutputFile(filename); 
